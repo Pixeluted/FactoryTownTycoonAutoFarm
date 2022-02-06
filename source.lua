@@ -105,7 +105,7 @@ function findOurAxe()
     local toolsInBackpack = getAllToolsIn(game.Players.LocalPlayer.Backpack)
     local toolsInCharacter = getAllToolsIn(game.Players.LocalPlayer.Character)
     
-    if #toolsInBackpack == 2 then
+    if #toolsInBackpack >= 2 then
         
         print("Should be in backpack")
         for _,tool in pairs(toolsInBackpack) do 
